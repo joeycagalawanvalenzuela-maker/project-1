@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grading Forms</title>
+    <style>
+    </style>
+    <!--media="none" onload="this.media='all'"-->
+    <!--<link href="css_signUpForm.css" rel="stylesheet" />-->
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/joeycagalawanvalenzuela-maker/project-1/refs/heads/main/css_signUpForm.css" />
+</head>
+<body>
+    <div class="signUpForm" id="signUpForm">
+        <div class="formImage">
+            <img src="https://github.com/joeycagalawanvalenzuela-maker/project-1/blob/main/img_class.png?raw=true" alt="" />
+            <!--<img src="img_class.png" alt="" />-->
+        </div>
+        <div class="allForms" id="allForms">
+            <form class="formContent" id="formContent">
+                <div class="formHeading">
+                    <img src="https://github.com/joeycagalawanvalenzuela-maker/project-1/blob/main/img_gradingFormsLogo.png?raw=true" alt="">
+                    <!--<img src="img_gradingFormsLogo.png" alt="">-->
+                    <h1 class="loginText">
+                        <span>L</span>
+                        <span>O</span>
+                        <span>G</span>
+                        <span>I</span>
+                        <span>N</span>
+                    </h1>
+                </div>
+                <div class="inputWrap">
+                    <div class="fieldHolder">
+                        <input type="text" id="userName" required>
+                        <label for="userName"> Username </label>
+                    </div>
+                    <div class="fieldHolder">
+                        <input type="password" id="passWord" required>
+                        <label for="passWord"> Password </label>
+                    </div>
+                </div>
+                <button class="loginBtn" id="loginBtn" type="submit">
+                    <div class="leftSection">
+                        <span class="lockIcon">&#x1F513</span>
+                    </div>
+                    <div class="loginBtnText">LOGIN</div>
+                </button>
+                <p style="font-size: 11px;">or</p>
+                <a id="createAccountBtn" title="CLick this link if you don't have an account yet" style="font-size: 12.5px;" href="#">Create Account</a>
+            </form>
+
+            <form class="registerFormContent" id="registerFormContent">
+                <div class="registerFormHeading">
+                    <img src="https://github.com/joeycagalawanvalenzuela-maker/project-1/blob/main/img_gradingFormsLogo.png?raw=true" alt="">
+                    <h1 class="registerText">
+                        <span>R</span>
+                        <span>E</span>
+                        <span>G</span>
+                        <span>I</span>
+                        <span>S</span>
+                        <span>T</span>
+                        <span>E</span>
+                        <span>R</span>
+                    </h1>
+                </div>
+                <div class="registerInputWrap">
+                    <div class="fieldHolder">
+                        <input type="text" id="firstName" required>
+                        <label for="firstName"> First Name </label>
+                    </div>
+                    <div class="fieldHolder">
+                        <input type="text" id="middleName" required>
+                        <label for="middleName"> Middle Name </label>
+                    </div>
+                    <div class="fieldHolder">
+                        <input type="text" id="lastName" required>
+                        <label for="lastName"> Last Name </label>
+                    </div>
+                </div>
+                <div class="regBtnContainer">
+                    <button class="registerBtn" id="registerBtn" type="submit">
+                        <div class="registerBtnText">CONTINUE</div>
+                        <div class="rightSection">
+                            <span class="bustIcon">&#128100 </span>
+                        </div>
+                    </button>
+                    <div class="regCanBack">
+                        <button class="cancelRegister" id="cancelRegister" type="button">❌ CANCEL</button>
+                    </div>
+                </div>
+            </form>
+
+            <form class="registerFormSecurity" id="registerFormSecurity">
+                <div class="securityFormHeading">
+                    <img src="https://github.com/joeycagalawanvalenzuela-maker/project-1/blob/main/img_gradingFormsLogo.png?raw=true" alt="">
+                    <h1 class="registerSecurityText">
+                        <span>R</span>
+                        <span>E</span>
+                        <span>G</span>
+                        <span>I</span>
+                        <span>S</span>
+                        <span>T</span>
+                        <span>E</span>
+                        <span>R</span>
+                    </h1>
+                </div>
+                <div class="securityInputWrap">
+                    <div class="fieldHolder">
+                        <input type="text" id="createUserName" required>
+                        <label for="createUserName"> Create Username </label>
+                    </div>
+                    <div class="fieldHolder">
+                        <input type="password" id="createPassWord" required>
+                        <label for="createPassWord"> Create Password </label>
+                    </div>
+                    <div class="fieldHolder">
+                        <input type="password" id="confirmPassWord" required>
+                        <label for="confirmPassWord"> Confirm Password </label>
+                    </div>
+                </div>
+                <div class="regBtnContainer">
+                    <button class="registerBtn" id="registerBtnSecurity" type="submit">
+                        <div class="registerBtnText">  FINALIZE  </div>
+                        <div class="rightSection2">
+                            <span class="bustIcon">&#128100</span>
+                        </div>
+                    </button>
+                    <div class="regCanBack">
+                        <button class="regBackBtn" id="regBackBtn" type="button">⏪ BACK</button>
+                        <button class="cancelRegister" id="cancelRegisterSecurity" type="button">❌ CANCEL</button>
+                    </div>
+                </div>
+            </form>
+
+            <form class="registerFormSecurityQuestion" id="registerFormSecurityQuestion">
+                <div class="securityQuestionFormHeading">
+                    <img src="https://github.com/joeycagalawanvalenzuela-maker/project-1/blob/main/img_gradingFormsLogo.png?raw=true" alt="">
+                    <h1 class="registerSecurityQuestionText">
+                        <span>R</span>
+                        <span>E</span>
+                        <span>G</span>
+                        <span>I</span>
+                        <span>S</span>
+                        <span>T</span>
+                        <span>E</span>
+                        <span>R</span>
+                    </h1>
+                </div>
+                <div class="questionInputWrap">
+                    <div class="reviewText">
+                        <p class="review" id="reviewFirstName"></p>
+                        <p class="review" id="reviewMiddleName"></p>
+                        <p class="review" id="reviewLastName"></p>
+                        <p class="review" id="reviewAccount"></p>
+                        <p class="review" id="reviewPassword"></p>
+                        <p class="reviewUniqueCode" id="reviewUniqueCode"></p>
+                        <div class="note">
+                            <p class="reviewUniqueCodeDescription" id="reviewUniqueCodeDescription"><bold>Note: <i>Case Sensitive</i></bold><br><i>The app will ask for this unique code in case you need to recover your account or password. Copy and save this code in a safe place. This code is case sensitive, make sure to properly copy capital and non-capital letters.</i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="regBtnContainer">
+                    <button class="registerBtn" id="registerBtnSecurity" type="submit">
+                        <div class="registerBtnText">REGISTER</div>
+                        <div class="rightSection">
+                            <span class="bustIcon">&#128100 </span>
+                        </div>
+                    </button>
+                    <div class="regCanBack">
+                        <button class="regBackBtn" id="regBackBtnQuestion" type="button">⏪ BACK</button>
+                        <button class="cancelRegister" id="cancelRegisterSecurity" type="button">❌ CANCEL</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id=""></div>
+    <script>
+        
+    </script>
+    <script src="js_signUpFormButtons.js" onerror="this.onerror=null;this.src='https://raw.githubusercontent.com/joeycagalawanvalenzuela-maker/project-1/refs/heads/main/js_signUpFormButtons.js'"></script>
+    <script src="js_signUpFormCircleBgAnimation.js" onerror="this.onerror=null;this.src='https://raw.githubusercontent.com/joeycagalawanvalenzuela-maker/project-1/refs/heads/main/js_signUpFormCircleBgAnimation.js'"></script>
+</body>
+</html>
